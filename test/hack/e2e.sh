@@ -2,10 +2,10 @@
 
 set -euo pipefail
 
-CAPK_VERSION=v0.10.1
-CAPI_VERSION=release-1.10
+CAPK_VERSION=v0.11.0
+CAPI_VERSION=release-1.11
 CALICO_VERSION=v3.31.5
-DEFAULT_KIND_IMAGE=kindest/node:v1.32.8
+DEFAULT_KIND_IMAGE=kindest/node:v1.33.12
 
 WORKSPACE="${WORKSPACE:-$(pwd)}"
 mkdir -p "$WORKSPACE"
